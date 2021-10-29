@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 29 23:06:59 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+b = int(input("Masukan Jumlah bilangan: "))
+while b<2:
+  print("aneh kamu")
+  n = int(input("Masukan Jumlah bilangan: "))
+F1=int(input("masukan angka pertama: "))
+F2 = int(input("masukan angka kedua: "))
+for i in range(b):
+  v=F1
+  
+  x = F1+F2
+  F1=F2
+  F2=x
+  print('berikut urutannya')
+  print(v)
